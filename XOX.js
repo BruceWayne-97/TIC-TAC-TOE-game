@@ -17,10 +17,11 @@ p1.style.color = "black";
 p2.style.background = "black";
 p2.style.color = "white";
 gameover = false
-currentPlayer = "x";
+currentPlayer = "X";
 let boardCells = document.querySelectorAll('.block');
   boardCells.forEach(cell => cell.innerText = "");
   alertmsg.innerText=""
+  count =0;
 }
 function wins() {
   const winningIndices = [
