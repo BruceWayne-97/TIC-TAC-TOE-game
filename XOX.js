@@ -21,7 +21,7 @@ currentPlayer = "X";
 let boardCells = document.querySelectorAll('.block');
   boardCells.forEach(cell => cell.innerText = "");
   alertmsg.innerText=""
-  count =0;
+  count=0;
 }
 function wins() {
   const winningIndices = [
